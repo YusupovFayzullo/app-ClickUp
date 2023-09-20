@@ -12,7 +12,6 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 public class SecurityConfig extends WebSecurityConfiguration {
     public static void main(String[] args) {
 
-        System.out.println();
     }
 
 }
