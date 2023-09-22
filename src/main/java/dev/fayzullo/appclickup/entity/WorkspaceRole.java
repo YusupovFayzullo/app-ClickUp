@@ -24,10 +24,6 @@ public class WorkspaceRole extends AbsUUIDEntity {
     @Enumerated(EnumType.STRING)
     private WorkspaceRoleName extendsRole;
 
-    public static void main(String[] args) {
-        System.out.println("Java");
-    }
-
 
 
 
