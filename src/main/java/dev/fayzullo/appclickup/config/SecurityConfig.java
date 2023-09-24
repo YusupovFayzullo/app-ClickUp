@@ -15,7 +15,6 @@ public class SecurityConfig extends WebSecurityConfiguration {
     public static void main(String[] args) {
 
 
-        System.out.println();
     }
 
 }
