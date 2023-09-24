@@ -69,7 +69,6 @@ public class Users extends AbsUUIDEntity implements UserDetails {
 
     @Override
     public boolean isEnabled() {
-        System.out.println("Java");
         return this.enabled;
     }
 }
