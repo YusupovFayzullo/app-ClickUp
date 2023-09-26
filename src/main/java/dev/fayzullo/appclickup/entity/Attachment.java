@@ -24,7 +24,6 @@ public class Attachment extends AbsUUIDEntity {
 
     public static void main(String[] args) {
 
-        System.out.println();
     }
 
 
