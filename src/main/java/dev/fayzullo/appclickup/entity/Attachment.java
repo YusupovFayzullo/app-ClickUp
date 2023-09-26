@@ -22,9 +22,6 @@ public class Attachment extends AbsUUIDEntity {
     private String contentType;
 
 
-    public static void main(String[] args) {
-
-    }
 
 
 }
