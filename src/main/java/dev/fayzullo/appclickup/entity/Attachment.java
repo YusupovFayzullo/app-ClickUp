@@ -22,6 +22,7 @@ public class Attachment extends AbsUUIDEntity {
     private String contentType;
 
     public static void main(String[] args) {
+        System.out.println("Java");
     }
 
 
