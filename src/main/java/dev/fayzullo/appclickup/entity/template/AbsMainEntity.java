@@ -34,6 +34,6 @@ public abstract class AbsMainEntity {
     private Users updatedBy;
 
     public static void main(String[] args) {
-        System.out.println("Ja");
+        System.out.println("Java");
     }
 }
