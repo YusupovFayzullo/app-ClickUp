@@ -37,6 +37,5 @@ public abstract class AbsMainEntity {
 
         System.out.println("J");
 
-
     }
 }
