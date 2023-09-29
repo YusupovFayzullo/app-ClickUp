@@ -33,4 +33,8 @@ public abstract class AbsMainEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     private Users updatedBy;
 
+    public static void main(String[] args) {
+
+        System.out.println("Java");
+    }
 }
