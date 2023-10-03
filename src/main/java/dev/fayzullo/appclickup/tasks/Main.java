@@ -18,7 +18,7 @@ public class Main {
         String[] words_uzb = {"xushbo'y hid", "ichimlik", "shingil", "birlashtirmoq", "zamonaviy",
                 "o'stirmoq", "quyuq", "ilohiy", "nam", "hid", "tanglay",
                 "jannatmakon joy", "plantatsiya", "tez", "tezlik", "tinchlantiruvchi",
-                "ko'z ilg'amas", "tekstura", "zaharli", "farq qilmoq"};
+                "ko'z ilg'amas", "tekstura", "zaharli", "farq qilmods"};
 
         List<Integer> randoms = randoms(words_english);
 
