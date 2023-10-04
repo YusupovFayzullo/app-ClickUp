@@ -7,6 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        HashMap<String, String> didNotWords = new HashMap<>();
+
         Scanner scanner = new Scanner(System.in);
 
         int count = 0;
@@ -15,6 +17,7 @@ public class Main {
         String[] words_english = {"aroma", "beverage", "cluster", "combine", "contemporary",
                 "cultivate", "condensed", "divine", "humid", "odor", "palate", "paradise", "plantation",
                 "rapid", "rate", "soothing", "subtle", "texture", "toxic", "vary"};
+
         String[] words_uzb = {"xushbo'y hid", "ichimlik", "shingil", "birlashtirmoq", "zamonaviy",
                 "o'stirmoq", "quyuq", "ilohiy", "nam", "hid", "tanglay",
                 "jannatmakon joy", "plantatsiya", "tez", "tezlik", "tinchlantiruvchi",
@@ -24,15 +27,23 @@ public class Main {
 
 
         for (int j = 0; j < randoms.size(); j++) {
-            System.out.print("Enter uzbek of " + words_english[randoms.get(j)] + ":  ");
+            System.out.print("Enter english of " + words_uzb[randoms.get(j)] + ":  ");
             String s = scanner.nextLine();
-            if (s.equalsIgnoreCase(words_uzb[randoms.get(j)])) {
+            if (s.equalsIgnoreCase(words_english[randoms.get(j)])) {
                 System.out.println("you are right");
                 count++;
-            } else System.out.println("you didn't know");
+            } else {
+                System.out.println("you didn't know");
+                didNotWords.put(words_english[randoms.get(j)],words_uzb[randoms.get(j)]);
+            }
         }
 
         System.out.println("Your result " + count + "/" + words_english.length);
+        if(!didNotWords.isEmpty()){
+            System.out.println();
+            System.out.println("You did not this word/s: ");
+            System.out.println(didNotWords);
+        }
 
 
     }
