@@ -14,14 +14,14 @@ public class Main {
         int count = 0;
 
 
-        String[] words_english = {"aroma", "beverage", "cluster", "combine", "contemporary",
-                "cultivate", "condensed", "divine", "humid", "odor", "palate", "paradise", "plantation",
-                "rapid", "rate", "soothing", "subtle", "texture", "toxic", "vary"};
+        String[] words_english = {"accident", "admiral", "arc", "character", "conscience",
+                "fiery", "flesh", "grapefruit", "hay", "horrified", "kerosene", "loop", "paddle",
+                "raft", "sour", "stake", "steward", "string", "thorn", "wreck"};
 
-        String[] words_uzb = {"xushbo'y hid", "ichimlik", "shingil", "birlashtirmoq", "zamonaviy",
-                "o'stirmoq", "quyuq", "ilohiy", "nam", "hid", "tanglay",
-                "jannatmakon joy", "plantatsiya", "tez", "tezlik", "tinchlantiruvchi",
-                "ko'z ilg'amas", "tekstura", "zaharli", "farq qilmoq"};
+        String[] words_uzb = {"falokat", "general", "yarim aylana shakl", "xarakter", "vijdon",
+                "olovli", "badan", "greypfrut", "somon", "yomon qo'rqqan", "kerosin",
+                "sirtmoq", "eshkak", "sol", "nordon", "tirgak",
+                "styuardessa", "kanop ip", "tikan", "vayron qilmoq"};
 
         List<Integer> randoms = randoms(words_english);
 
