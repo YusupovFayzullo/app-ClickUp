@@ -14,7 +14,7 @@ public class Main {
         int count = 0;
 
 
-        String[] words_english = {"arom", "beverage", "cluster", "combine", "contemporary",
+        String[] words_english = {"aroma", "beverage", "cluster", "combine", "contemporary",
                 "cultivate", "condensed", "divine", "humid", "odor", "palate", "paradise", "plantation",
                 "rapid", "rate", "soothing", "subtle", "texture", "toxic", "vary"};
 
