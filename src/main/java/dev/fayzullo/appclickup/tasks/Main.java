@@ -15,7 +15,7 @@ public class Main {
 
 
         String[] words_english = {"accident", "admiral", "arc", "character", "conscience",
-                "fiery", "flesh", "grapefruit", "hay", "horrified", "kerosene", "loop", "paddle",
+                "fiery", "flesh", "grapefruit", "hay", "horrified", "kerosene1", "loop", "paddle",
                 "raft", "sour", "stake", "steward", "string", "thorn", "wreck"};
 
         String[] words_uzb = {"falokat", "general", "yarim aylana shakl", "xarakter", "vijdon",
