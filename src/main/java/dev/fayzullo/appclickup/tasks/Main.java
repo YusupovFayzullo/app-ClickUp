@@ -19,16 +19,17 @@ public class Main {
                 "conscious", "disagree", "echo", "eventual", "hint", "idiot", "immense", "indirect",
                 "option", "pastime", "perfect", "pinpoint", "switch", "thorough", "torment","beak","damp","disapprove",
                 "except","flight","fond","immoral","ivy","moan","oblivious","perish","pit","rim","roost",
-                "slippery","soar","trivial"
-
-
-
+                "slippery","soar","trivial","typical","utterly","weep"
         };
 
         String[] words_uzb = {"ogohlantirmoq", "eshitiladigan", "hayajonga soluvchi", "ehtiyot bo'lmoq", "maqtanmoq",
                 "sezadigan", "norozi bo'lmoq", "aks-sado", "oxirgi", "ishora", "ovsar",
                 "juda katta", "aylanma", "tanlash imkoniyati", "ermak", "mukammal",
-                "turgan joyni aniqlamoq", "alishtirmoq", "to'liq", "azob bermoq"};
+                "turgan joyni aniqlamoq", "alishtirmoq", "to'liq", "azob bermoq","tumshuq",
+                "nam","norozi bo'lmoq","...dan tashqari","reys","ishqiboz","axloqsiz","pechak",
+                "ingramoq","unutgan","o'lmoq","o'ra","to'g'in","qo'noq","sirg'anchiq",
+                "baland uchmoq","arzimas","odatiy","butkul","yig'lamoq"
+        };
 
         List<Integer> randoms = randoms(words_english);
 
