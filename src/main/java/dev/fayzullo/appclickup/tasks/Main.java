@@ -28,7 +28,7 @@ public class Main {
                 "turgan joyni aniqlamoq", "alishtirmoq", "to'liq", "azob bermoq","tumshuq",
                 "nam","norozi bo'lmoq","...dan tashqari","reys","ishqiboz","axloqsiz","pechak",
                 "ingramoq","unutgan","o'lmoq","o'ra","to'g'in","qo'noq","sirg'anchiq",
-                "baland uchmoq","arzimas","odatiy","butkul","yig'lamoq1"
+                "baland uchmoq","arzimas","odatiy","butkul","yig'lamoq"
         };
 
         List<Integer> randoms = randoms(words_english);
