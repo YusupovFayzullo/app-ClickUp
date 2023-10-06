@@ -14,22 +14,29 @@ public class Main {
         int count = 0;
 
 
-        String[] words_english = {"accident", "admiral", "arc", "character", "conscience",
-                "fiery", "flesh", "grapefruit", "hay", "horrified", "kerosene", "loop", "paddle",
-                "raft", "sour", "stake", "steward", "string", "thorn", "wreck"};
+        String[] words_english = {
+                "admonish", "audible", "awesome", "beware", "brag",
+                "conscious", "disagree", "echo", "eventual", "hint", "idiot", "immense", "indirect",
+                "option", "pastime", "perfect", "pinpoint", "switch", "thorough", "torment","beak","damp","disapprove",
+                "except","flight","fond","immoral","ivy","moan","oblivious","perish","pit","rim","roost",
+                "slippery","soar",""
 
-        String[] words_uzb = {"falokat", "general", "yarim aylana shakl", "xarakter", "vijdon",
-                "olovli", "badan", "greypfrut", "somon", "yomon qo'rqqan", "kerosin",
-                "sirtmoq", "eshkak", "sol", "nordon", "tirgak",
-                "styuardessa", "kanop ip", "tikan", "vayron qilmoq"};
+
+
+        };
+
+        String[] words_uzb = {"ogohlantirmoq", "eshitiladigan", "hayajonga soluvchi", "ehtiyot bo'lmoq", "maqtanmoq",
+                "sezadigan", "norozi bo'lmoq", "aks-sado", "oxirgi", "ishora", "ovsar",
+                "juda katta", "aylanma", "tanlash imkoniyati", "ermak", "mukammal",
+                "turgan joyni aniqlamoq", "alishtirmoq", "to'liq", "azob bermoq"};
 
         List<Integer> randoms = randoms(words_english);
 
 
         for (int j = 0; j < randoms.size(); j++) {
-            System.out.print("Enter english of " + words_uzb[randoms.get(j)] + ":  ");
+            System.out.print("Enter uzbek of " + words_english[randoms.get(j)] + ":  ");
             String s = scanner.nextLine();
-            if (s.equalsIgnoreCase(words_english[randoms.get(j)])) {
+            if (s.equalsIgnoreCase(words_uzb[randoms.get(j)])) {
                 System.out.println("you are right");
                 count++;
             } else {
@@ -54,6 +61,8 @@ public class Main {
         return false;
     }
 
+
+
     private static List<Integer> randoms(String[] words) {
 
         List<Integer> exist = new ArrayList<>();
@@ -67,4 +76,7 @@ public class Main {
         return exist;
 
     }
+
+
+
 }
