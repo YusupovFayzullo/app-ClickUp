@@ -19,7 +19,7 @@ public class Main {
                 "conscious", "disagree", "echo", "eventual", "hint", "idiot", "immense", "indirect",
                 "option", "pastime", "perfect", "pinpoint", "switch", "thorough", "torment","beak","damp","disapprove",
                 "except","flight","fond","immoral","ivy","moan","oblivious","perish","pit","rim","roost",
-                "slippery","soar",""
+                "slippery","soar","trivial"
 
 
 
