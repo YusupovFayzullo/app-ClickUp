@@ -29,7 +29,7 @@ public class Main {
                 "baland uchmoq","arzimas","odatiy","butkul","yig'lamoq","biroz vaqtga",
                 "kiber bo'shliq","tahrirlamoq","insho","o'rganib chiqmoq",
                 "xushidan ketmoq","global","gimnastika zali","marker bilan belgilamoq","bexabar",
-                "ilova","ma'ruza","xulosa","ishlamoq","shahsiy1","yaqinda sodir bo'lgan","qa'tiy qaror",
+                "ilova","ma'ruza","xulosa","ishlamoq","shahsiy","yaqinda sodir bo'lgan","qa'tiy qaror",
                 "semestr","kompyuterda yozilgan","g'ayritabiiy"
         };
 
