@@ -15,20 +15,22 @@ public class Main {
 
 
         String[] words_english = {
-                "admonish", "audible", "awesome", "beware", "brag",
-                "conscious", "disagree", "echo", "eventual", "hint", "idiot", "immense", "indirect",
-                "option", "pastime", "perfect", "pinpoint", "switch", "thorough", "torment","beak","damp","disapprove",
+                "beak","damp","disapprove",
                 "except","flight","fond","immoral","ivy","moan","oblivious","perish","pit","rim","roost",
-                "slippery","soar","trivial","typical","utterly","weep"
+                "slippery","soar","trivial","typical","utterly","weep","awhile","cyberspace","edit","essay",
+                "evaluate","faint","global","gymnasium","highlight","ignorant","index",
+                "lecture","moral","operate","private","recent","resolution","semester",
+                "typewritten","weird"
         };
 
-        String[] words_uzb = {"ogohlantirmoq", "eshitiladigan", "hayajonga soluvchi", "ehtiyot bo'lmoq", "maqtanmoq",
-                "sezadigan", "norozi bo'lmoq", "aks-sado", "oxirgi", "ishora", "ovsar",
-                "juda katta", "aylanma", "tanlash imkoniyati", "ermak", "mukammal",
-                "turgan joyni aniqlamoq", "alishtirmoq", "to'liq", "azob bermoq","tumshuq",
+        String[] words_uzb = {"tumshuq",
                 "nam","norozi bo'lmoq","...dan tashqari","reys","ishqiboz","axloqsiz","pechak",
-                "ingramoq","unutgan","o'lmoq","o'ra","to'g'in","qo'noq","sirg'anchiq",
-                "baland uchmoq","arzimas","odatiy","butkul","yig'lamoq1"
+                "ingramoq","unutgan","o'lmoq","o'ra","to'g'in","qo'noq","sirpanchiq",
+                "baland uchmoq","arzimas","odatiy","butkul","yig'lamoq","biroz vaqtga",
+                "kiber bo'shliq","tahrirlamoq","insho","o'rganib chiqmoq",
+                "xushidan ketmoq","global","gimnastika zali","marker bilan belgilamoq","bexabar",
+                "ilova","ma'ruza","xulosa","ishlamoq","shahsiy","yaqinda sodir bo'lgan","qa'tiy qaror",
+                "semestr","kompyuterda yozilgan","g'ayritabiiy"
         };
 
         List<Integer> randoms = randoms(words_english);
