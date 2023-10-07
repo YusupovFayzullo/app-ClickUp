@@ -30,7 +30,7 @@ public class Main {
                 "kiber bo'shliq","tahrirlamoq","insho","o'rganib chiqmoq",
                 "xushidan ketmoq","global","gimnastika zali","marker bilan belgilamoq","bexabar",
                 "ilova","ma'ruza","xulosa","ishlamoq","shahsiy","yaqinda sodir bo'lgan","qa'tiy qaror",
-                "semestr","kompyuterda yozilgan","g'ayritabiiy1"
+                "semestr","kompyuterda yozilgan","g'ayritabiiy"
         };
 
         List<Integer> randoms = randoms(words_english);
