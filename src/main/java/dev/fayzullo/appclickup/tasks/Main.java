@@ -15,22 +15,16 @@ public class Main {
 
 
         String[] words_english = {
-                "beak","damp","disapprove",
-                "except","flight","fond","immoral","ivy","moan","oblivious","perish","pit","rim","roost",
-                "slippery","soar","trivial","typical","utterly","weep","awhile","cyberspace","edit","essay",
-                "evaluate","faint","global","gymnasium","highlight","ignorant","index",
-                "lecture","moral","operate","private","recent","resolution","semester",
-                "typewritten","weird"
+                "absolute","alas","attentive","cape","envision","evenly",
+                "folk","melt","patch","pleasure","pop","pudding","rail",
+                "recipe","role","shrink","soak","spark","spirit","suit"
         };
 
-        String[] words_uzb = {"tumshuq",
-                "nam","norozi bo'lmoq","...dan tashqari","reys","ishqiboz","axloqsiz","pechak",
-                "ingramoq","unutgan","o'lmoq","o'ra","to'g'in","qo'noq","sirpanchiq",
-                "baland uchmoq","arzimas","odatiy","butkul","yig'lamoq","biroz vaqtga",
-                "kiber bo'shliq","tahrirlamoq","insho","o'rganib chiqmoq",
-                "xushidan ketmoq","global","gimnastika zali","marker bilan belgilamoq","bexabar",
-                "ilova","ma'ruza","xulosa","ishlamoq","shahsiy","yaqinda sodir bo'lgan","qa'tiy qaror",
-                "semestr","kompyuterda yozilgan","g'ayritabiiy"
+        String[] words_uzb = {
+                "mutloq","afsus","diqqatli","yoping'ich","tasavvur qilmoq","bir xilda",
+                "yaqinlar","erimoq","yamoq","mamnuniyat","paqillagan ovoz","shirin desert",
+                "zinapoya panjarasi","retsept","vazifa","kichraymoq","ivitmoq","uchqun",
+                "ruhiyat","kostyum"
         };
 
         List<Integer> randoms = randoms(words_english);
