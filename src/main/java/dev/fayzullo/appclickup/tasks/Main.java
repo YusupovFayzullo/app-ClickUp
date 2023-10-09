@@ -19,7 +19,7 @@ public class Main {
                 "except","flight","fond","immoral","ivy","moan","oblivious","perish","pit","rim","roost",
                 "slippery","soar","trivial","typical","utterly","weep","awhile","cyberspace","edit","essay",
                 "evaluate","faint","global","gymnasium","highlight","ignorant","index",
-                "lecture","moral","operate","private","recent","resolution","semester",
+                "lecture","moral","operate","private","recent","resolution","semester1",
                 "typewritten","weird"
         };
 
